@@ -1,0 +1,23 @@
+{
+  "name": "pharmacy-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazenfteha/Pharmacy-Plus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazenfteha/Pharmacy-Plus/issues"
+  },
+  "homepage": "https://github.com/mazenfteha/Pharmacy-Plus#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
