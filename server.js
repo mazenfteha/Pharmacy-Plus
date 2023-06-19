@@ -2,12 +2,15 @@ require('dotenv').config();
 const express = require('express')
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Pharmacy Plus')
-})
+app.use(express.json());
 
 //routers
 const authRouter = require('./routes/auth')
+
+//routes
+app.get('/', (req, res) => {
+    res.send('Pharmacy Plus')
+})
 
 app.use('/api/v1/auth',authRouter)
 
